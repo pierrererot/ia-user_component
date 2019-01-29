@@ -11,15 +11,7 @@ class m180628_092519_createTable_connection extends Migration
     private $tableName = 'connection';
     private $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';
     private $dbComponent = 'dbLog';
-
-    /**
-     *
-     */
-    public function init()
-    {
-        $this->db = $this->dbComponent;
-    }
-
+    
     /**
      * {@inheritdoc}
      */
