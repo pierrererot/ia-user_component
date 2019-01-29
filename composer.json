@@ -1,0 +1,21 @@
+{
+    "name": "user_component",
+    "version": "1.0.0",
+    "description": "User Component",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre REROT",
+            "email": "pierre.rerot@inadvans.com"
+        }
+    ],
+    "require": {
+
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+}
