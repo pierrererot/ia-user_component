@@ -20,7 +20,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "UserStatus\\": "lib/enums"
+            "UserStatus\\": "lib/enums",
+            "MigrationTools\\": "migrations"
 
         }
     }
