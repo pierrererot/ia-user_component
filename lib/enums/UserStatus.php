@@ -2,7 +2,7 @@
 
 namespace user_component\lib\enum\UserStatus;
 
-use EnumHelper;
+use EnumHelper\EnumHelper as EnumHelper;
 use app\modules\user\UserModule;
 
 
