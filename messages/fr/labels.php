@@ -21,7 +21,11 @@ return [
     "Create Role" => "Ajouter un rôle",
     "Create User" => "Ajouter un utilisateur",
 
+    "Disabled" => "Désactivé",
+
     "Email (confirm)" => "Email (confirmer)",
+    "Enabled" => "Activé",
+
     "Fax" => "Fax",
     "First Name" => "Prénom",
 
@@ -50,6 +54,8 @@ return [
     "Permission" => "Droit",
     "Permissions" => "Droits",
     "Profiles" => "Profils",
+
+    "Refused Invitation" => "Invitation refusée",
     "Register" => "Inscrivez-vous",
     "Registered From" => "IP inscription",
     "Request new confirmation link" => "Demander un nouveau lien de confirmation",
@@ -66,7 +72,10 @@ return [
     "Sign In" => "Connexion",
     "Sign Out" => "Déconnexion",
     "Sign Out ({0})" => "Déconnexion ({0})",
+
     "Unblock" => "Débloquer",
+    "Unsubscribed" => "Non-inscrit",
+
     "Update My Email" => "Modifier mon adresse mail",
     "Update My Identifiers" => "Modifier mes identifiants",
     "Update My Profile" => "Modifier mon profil utilisateur",

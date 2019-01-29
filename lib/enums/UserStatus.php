@@ -2,8 +2,7 @@
 
 namespace app\modules\user\lib\enums;
 
-use app\modules\ia\helpers\EnumHelper;
-use app\modules\ia\IAModule;
+use EnumHelper;
 use app\modules\user\UserModule;
 
 
@@ -26,10 +25,10 @@ class UserStatus extends EnumHelper
     {
         return [
             static::PENDING_REGISTRATION => UserModule::t('labels', "Pending Registration"),
-            static::ENABLED => IAModule::t('labels', 'Enabled'),
-            static::DISABLED => IAModule::t('labels', 'Disabled'),
-            static::UNSUBSCRIBED => IAModule::t('labels', 'Unsubscribed'),
-            static::REFUSED_INVITATION => IAModule::t('labels', 'Refused Invitation'),
+            static::ENABLED => UserModule::t('labels', 'Enabled'),
+            static::DISABLED => UserModule::t('labels', 'Disabled'),
+            static::UNSUBSCRIBED => UserModule::t('labels', 'Unsubscribed'),
+            static::REFUSED_INVITATION => UserModule::t('labels', 'Refused Invitation'),
         ];
     }
 }
