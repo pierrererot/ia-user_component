@@ -3,6 +3,8 @@ Module : USER
 
 ### Installation
 
+run php yii migrate --migrationPath=@app/vendor/user_component/migrations --interactive=0 ;
+
 ### Configuration
 
 ### Extensions
