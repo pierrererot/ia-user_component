@@ -1,6 +1,6 @@
 <?php
 
-use UserStatus;
+use UserStatus\UserStatus;
 use yii\db\Migration;
 
 class m171013_120836_createTable_user extends Migration
