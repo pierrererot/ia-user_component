@@ -1,6 +1,6 @@
 <?php
 
-use app\modules\user\lib\enums\UserStatus;
+use user_component\lib\enum\UserStatus;
 use yii\db\Migration;
 
 class m171013_120836_createTable_user extends Migration
@@ -15,7 +15,7 @@ class m171013_120836_createTable_user extends Migration
     {
         $this->createTable($this->tableName, [
             'id' => $this->primaryKey(20),
-            'status' => $this->integer()->notNull()->defaultValue(UserStatus::PENDING_REGISTRATION),
+            'status' => $this->integer()->notNull()->defaultValue(UserStatus\UserStatus::PENDING_REGISTRATION),
             'email' => $this->string()->notNull()->unique(),
             'logged_in_from' => $this->text(),
             'logged_in_at' => $this->dateTime(),

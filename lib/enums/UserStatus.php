@@ -1,6 +1,6 @@
 <?php
 
-namespace app\modules\user\lib\enums;
+namespace user_component\lib\enum\UserStatus;
 
 use EnumHelper;
 use app\modules\user\UserModule;
