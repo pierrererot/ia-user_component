@@ -1,5 +1,6 @@
 <?php
 
+use MigrationTools\MigrationTools;
 use yii\db\Migration;
 
 /**
@@ -14,7 +15,7 @@ class m180717_085942_create_table_password extends Migration
      */
     public function safeUp()
     {
-        $migrationTools = new \app\modules\ia\migrations\MigrationTools();
+        $migrationTools = new MigrationTools();
         $this->createTable('password', array_merge(
             [
                 'id' => $this->primaryKey(20),

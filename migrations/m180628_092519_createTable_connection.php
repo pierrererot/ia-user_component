@@ -7,6 +7,7 @@ use yii\db\Migration;
  */
 class m180628_092519_createTable_connection extends Migration
 {
+    public $db = 'dbLog';
     private $tableName = 'connection';
     private $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';
     private $dbComponent = 'dbLog';
@@ -17,7 +18,6 @@ class m180628_092519_createTable_connection extends Migration
     public function init()
     {
         $this->db = $this->dbComponent;
-        parent::init();
     }
 
     /**
