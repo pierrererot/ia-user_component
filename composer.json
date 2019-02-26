@@ -1,5 +1,5 @@
 {
-    "name": "user_component",
+    "name": "ia/user_component",
     "version": "1.0.0",
     "description": "User Component",
     "type": "library",
